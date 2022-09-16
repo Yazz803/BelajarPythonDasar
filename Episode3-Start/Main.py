@@ -14,6 +14,9 @@ print(a) # menampilkan isi dari variabel a
 Ini disebutnya comment multiline
 """
 
+for i in range(1, 3000):
+    a = 10
+
 print(time.time() - start_time, "detik")
 
 # Code diatas akan dijalankan sesuai dari urutan code/baris nya
@@ -30,5 +33,7 @@ print(time.time() - start_time, "detik")
 # jika ada code yg diubah, maka kita harus re-compile, caranya sama kayak yg diatas
 
 # Mengapa kita harus melakukan ini? dan apa bedanya?
+# Yang dicompile akan lebih cepat daripada yang interpreted
+
 
 
